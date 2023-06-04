@@ -7,7 +7,7 @@ const removeFromArray = function(array) // can pass as many arguments as desired
         if (removeIndex === -1) // returns -1 if array element isn't found.
             continue;
 
-        array.splice(removeIndex, 1)
+        array.splice(removeIndex, 1);
     }
 
     return array;
